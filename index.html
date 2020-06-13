@@ -9,13 +9,27 @@
 
 
 <body>
-    <div class="navbar">
-        <h1>Doggos</h1>
-    </div>
+    <nav>
+        <ul class="nav-list">
+            <li>
+                <h1>Fetch Doggos</h1>
+            </li>
+            <li>
+                <select id="breed"></select>
+            </li>
+        </ul>
+    </nav>
 
-    <button class="add-doggo">Add Doggo</button>
+</nav>
+
+<div class="container">
+    <img id="main" class="main-image" src="" alt="main viewer" />
+    <span id="loader" class="loading-dog show">&#x1f9b4</span>
+</div>
+
+ <!--   <button class="breedSelect">Choose Doggo</button>
     <div class="doggos"></div>
-
+-->
     
     <script src="./doggos.js"></script>
 </body>
